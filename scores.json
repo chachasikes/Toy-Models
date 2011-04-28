@@ -1,0 +1,72 @@
+{
+  "_id":"score profiles",
+  "rows" : [
+  {
+    "type": "social_positive",
+    "scores": 
+    {
+      "people_traffic":  100,
+      "positive_sentiment":  100,
+    }
+  },
+  {
+    "type": "social_negative",
+    "scores": 
+    {
+      "people_traffic":  100,
+      "positive_complaints":  100,
+    }
+  },
+  {
+    "type": "density",
+    "scores": 
+    {
+      "per_capita_density":  100,
+    }
+  },
+  {
+    "type": "waste",
+    "scores": 
+    {
+      "energy_waste": 100,
+      "solid_waste": 100,
+      "water_waste": 100,
+      "organic_waste": 100,
+    }
+  },
+  {
+    "type": "food_affordable",
+    "scores": 
+    {
+      "cost_of_bread": 1,
+      "cost_of_milk": 1,
+      "cost_of_transport": 1,
+    }
+  },
+  {
+    "type": "food_enough",
+    "scores": 
+    {
+      "availability": 100,
+      "hours": 100,
+    }
+  },
+  {
+    "type": "food_appropriate",
+    "scores": 
+    {
+      "cuisine_to_ingredients": 100,
+      "religious_appropriate": 100,
+      "ethical_appropriate": 100,
+      "cooking_methods_appropriate": 100,
+    }
+  },
+  {
+    "type": "food_healthy",
+    "scores": 
+    {
+      "health_to_ingredients": 100,
+    }
+  },
+  ]
+}
