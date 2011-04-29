@@ -1,0 +1,70 @@
+{
+  "_id":"berkeley community resources",
+  "rows" : [
+  {
+    "name": "Chach's House",
+    "type": "apartment",
+    "attributes": 
+    {
+      "neighborhood": "Berkeley",
+      "number_residents": 50,
+      "square_footage": 20000,
+ 
+    }
+  },
+  {
+    "name": "Alan's House",
+    "type": "apartment",
+    "attributes": 
+    {
+      "neighborhood": "Berkeley",
+      "number_residents": 10,
+      "square_footage": 5000,
+ 
+    }
+  },
+  {
+    "name": "Ryan's House",
+    "type": "mcmansion",
+    "attributes": 
+    {
+      "neighborhood": "Berkeley",
+      "number_residents": 50,
+      "square_footage": 400000,
+    }
+  },
+  {
+    "name": "Matt's House",
+    "type": "homeless_encampment",
+    "attributes": 
+    {
+      "neighborhood": "Berkeley",
+      "number_residents": 3,
+      "square_footage": 10,
+    }
+  },
+  {
+    "name": "Union Market",
+    "type": "midsized market",
+    "style": null,
+    "attributes": 
+    {
+      "neighborhood": "Berkeley",
+      "accepts_ebt": null,
+      "bread" : "False",
+      "bread_whole_wheat" : "False",
+    },
+  },
+  {
+    "name": "Tofu Food Market",
+    "type": "bodega",
+      "attributes": 
+    {
+      "neighborhood": "Berkeley",
+      "accepts_ebt": null,
+      "bread" : "False",
+      "bread_whole_wheat" : "False",
+    },
+  },
+  ]
+}

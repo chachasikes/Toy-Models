@@ -1,0 +1,95 @@
+{
+  "_id":"berkeley community profiles",
+  "rows" : [
+  {
+    "type": "apartment",
+    "scores": 
+    {
+      "social_positive": 60,
+      "social_negative": 30,
+      "density": 90,
+      "waste": 60,
+      "stability": 50,
+    }
+  },
+  {
+    "type": "mcmansion",
+    "scores": 
+    {
+      "social_positive": 30,
+      "social_negative": 60,
+      "density": 1,
+      "waste": 90,
+      "stability": 50,
+    }
+  },
+  {
+    "type": "homeless_encampment",
+    "scores": 
+    {
+      "social_positive": 20,
+      "social_negative": 60,
+      "density": 1,
+      "waste": 90,
+      "stability": 0,
+    }
+  },
+  {
+    "type": "home",
+    "scores": 
+    {
+      "social_positive": 40,
+      "social_negative": 40,
+      "density": 25,
+      "waste": 60,
+      "stability": 90,
+    }
+  },
+  {
+    "type": "midsized market",
+    "scores": 
+    {
+      "social_positive": 40,
+      "social_negative": 40,
+      "density": 30,
+      "waste": 50,
+      "food_affordable": 50,
+      "food_enough": 40,
+      "food_appropriate": 50,
+      "food_healthy": 50,
+      "stability": 80,
+    }
+  },
+  {
+    "name": "bodega",
+    "scores": 
+    {
+      "social_positive": 80,
+      "social_negative": 30,
+      "density": 70,
+      "waste": 30,
+      "food_affordable": 70,
+      "food_enough": 70,
+      "food_appropriate": 90,
+      "food_healthy": 80,
+      "stability": 70,
+    }
+  },
+  {
+    "name": "community_garden",
+    "scores": 
+    {
+      "social_positive": 80,
+      "social_negative": 10,
+      "land_reuse": 90,
+      "density": 70,
+      "waste": -30,
+      "food_affordable": 70,
+      "food_enough": 50,
+      "food_appropriate": 80,
+      "food_healthy": 90,
+      "stability": 75,
+    }
+  },
+  ]
+}
