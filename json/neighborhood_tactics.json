@@ -2,16 +2,15 @@
   "_id": "neighborhood_tactics",
   "environment": [
     {
-      "years": 10,
-
-    },
+      "years": 10
+    }
    ],
   "files": [
     {
-      "resources": [resources.json],
-      "data": [federal.json],
-      "scores": [score_profiles],
-      "profiles": [profiles.json],
-    },
-   ],
+      "resources": ["resources.json"],
+      "data": ["federal.json"],
+      "scores": ["score_profiles"],
+      "profiles": ["profiles.json"]
+    }
+   ]
 } 

@@ -1,0 +1,11 @@
+{
+  "_id": "registry",
+  "files": [
+    "data_federal.json",
+    "profiles.json",
+    "resources.json",
+    "score_profiles.json",
+    "tactics.json",
+    "neighborhood_tactics.json"
+  ]
+}
