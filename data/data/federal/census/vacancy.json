@@ -1,0 +1,48 @@
+{
+  "_id": "census_vacancy",
+  "years": [
+    "2011": {
+        {
+          "year": 2011,
+          "name": "Rental Vacancy Rates by Area: 2011",
+          "source": "http://www.census.gov/hhes/www/housing/hvs/qtr111/q111ind.html",
+          "data": {
+            "united_states": 9.7,
+            "cities_principal": 9.6,
+            "cities_statistical": 9.8,
+            "suburbs": 9.3,
+            "rural": 10.0,
+            "northeast": 6.8,
+            "midwest": 10.2,
+            "south": 12.5,
+            "west": 7.3
+          },
+          "type": "vacancy",
+          "unit": "percentage",
+          "style": "rate",
+          "demographic": "renters"
+        },
+        {
+          "name": "Homeowner Vacancy Rates by Area: 2011",
+          "source": "http://www.census.gov/hhes/www/housing/hvs/qtr111/q111ind.html",
+          "year": 2011,
+          "data": {
+            "united_states": 2.6,
+            "cities_principal": 2.7,
+            "cities_statistical": 3.3,
+            "suburbs": 2.4,
+            "rural": 2.3,
+            "northeast": 2.2,
+            "midwest": 2.7,
+            "south": 2.8,
+            "west": 2.4
+          },
+          "type": "vacancy",
+          "unit": "percentage",
+          "style": "rate",
+          "demographic": "homeowners"
+        }
+      }
+    ]
+  ]
+} 

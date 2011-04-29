@@ -1,0 +1,25 @@
+{
+  "_id": "census_homeownership",
+  "years": [
+    {
+      "year": "2011",
+      "name": "Homeownership Rates by Area: 2011",
+      "source": "http://www.census.gov/hhes/www/housing/hvs/qtr111/q111ind.html",
+      "data": {
+        "united_states": 66.4,
+        "cities_principal": 51.4,
+        "cities_statistical": 64.9,
+        "suburbs": 73.9,
+        "rural": 74.1,
+        "northeast": 63.9,
+        "midwest": 70.4,
+        "south": 68.4,
+        "west": 60.9
+      },
+      "type": "homeownership",
+      "unit": "percentage",
+      "style": "rate",
+      "demographic": "homeowners"
+    }
+  ]
+} 

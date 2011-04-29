@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toy Models</title>
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+  </head>
+  <body>
+    <div id="account"></div>
+
+    <h1>Toy Models: Neighborhood Tactics</h1>
+
+    <div id="profile">Profile</div>
+    <div id="items"></div></div>
+
+    <div id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+
+    <div id="sidebar">
+      <p>There is a small neighborhood and residents have a high level of stress and other negative health symptoms.
+Your task, improve the quality of life for these residents.</p>
+    </div>
+  </body>
+  <script src="vendor/couchapp/loader.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    $.couch.app(function(app) {
+      $("#account").evently("account", app);
+      $("#profile").evently("profile", app);
+      $.evently.connect("#account","#profile", ["loggedIn","loggedOut"]);
+      $("#items").evently("items", app);
+    });
+  </script>
+</html>

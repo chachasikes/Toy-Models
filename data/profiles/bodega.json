@@ -1,0 +1,20 @@
+{
+  "_id": "bodega",
+  "data" : [
+    {
+      "type": "bodega",
+      "scores": 
+      {
+        "social_positive": 80,
+        "social_negative": 30,
+        "density": 70,
+        "waste": 30,
+        "food_affordable": 70,
+        "food_enough": 70,
+        "food_appropriate": 90,
+        "food_healthy": 80,
+        "stability": 70
+      }
+    }
+  ]
+}
