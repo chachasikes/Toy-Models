@@ -1,16 +1,14 @@
 {
   "_id": "home",
-  "data" : [
+  "data" : {
+    "type": "home",
+    "scores": 
     {
-      "type": "home",
-      "scores": 
-      {
-        "social_positive": 40,
-        "social_negative": 40,
-        "density": 25,
-        "waste": 60,
-        "stability": 90
-      }
+      "social_positive": 40,
+      "social_negative": 40,
+      "density": 25,
+      "waste": 60,
+      "stability": 90
     }
-  ]
+  }
 }

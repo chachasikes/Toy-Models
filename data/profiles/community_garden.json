@@ -1,21 +1,19 @@
 {
   "_id": "community_garden",
-  "data" : [
+  "data" : {
+    "type": "community_garden",
+    "scores": 
     {
-      "type": "community_garden",
-      "scores": 
-      {
-        "social_positive": 80,
-        "social_negative": 10,
-        "land_reuse": 90,
-        "density": 70,
-        "waste": -30,
-        "food_affordable": 70,
-        "food_enough": 50,
-        "food_appropriate": 80,
-        "food_healthy": 90,
-        "stability": 75
-      }
+      "social_positive": 80,
+      "social_negative": 10,
+      "land_reuse": 90,
+      "density": 70,
+      "waste": -30,
+      "food_affordable": 70,
+      "food_enough": 50,
+      "food_appropriate": 80,
+      "food_healthy": 90,
+      "stability": 75
     }
-  ]
+  }
 }

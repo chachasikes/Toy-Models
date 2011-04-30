@@ -1,16 +1,14 @@
 {
   "_id": "encampment",
-  "data" : [
+  "data" : {
+    "type": "encampment",
+    "scores": 
     {
-      "type": "encampment",
-      "scores": 
-      {
-        "social_positive": 20,
-        "social_negative": 60,
-        "density": 1,
-        "waste": 90,
-        "stability": 0
-      }
+      "social_positive": 20,
+      "social_negative": 60,
+      "density": 1,
+      "waste": 90,
+      "stability": 0
     }
-  ]
+  }
 }

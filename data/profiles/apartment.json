@@ -1,16 +1,14 @@
 {
   "_id": "apartment",
-  "data" : [
+  "data" : {
+    "type": "apartment",
+    "scores": 
     {
-      "type": "apartment",
-      "scores": 
-      {
-        "social_positive": 60,
-        "social_negative": 30,
-        "density": 90,
-        "waste": 60,
-        "stability": 50
-      }
+      "social_positive": 60,
+      "social_negative": 30,
+      "density": 90,
+      "waste": 60,
+      "stability": 50
     }
-  ]
+  }
 }

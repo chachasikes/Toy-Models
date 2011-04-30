@@ -5,62 +5,62 @@
       "name": "Community Garden",
       "type": "community_garden",
       "description": "A garden with no lots where participants work together to grow food.",
-      "participation": [
+      "participation": {
         "committed": 5,
         "volunteer": 25,
         "direct_benefit": 10,
         "occasional_benefit": 50,
         "indirect_benefit": 200
-      ]
-      "reach": 0.1, // Radius in miles
-      "footprint": 250, // Square feet
-      "growth_profile": [100, 100, 50, 50, 50, 25, 25, 25, 25, 25], // Typical behavior: starts with immediate benefit then tapers off as established. Measured in time investment and rate of change of benefits.
+      },
+      "reach": 0.1,
+      "footprint": 250,
+      "growth_profile": [100, 100, 50, 50, 50, 25, 25, 25, 25, 25],
       "challenges": ["permitting", "environment", "weather", "participation"],
       "effectiveness": {
         "volunteer_activities": {
-          "participation": { "volunteer": 50} // Percentage improvement per year.
+          "participation": { "volunteer": 50 },
           "demographic": "renters"
-        }
+        },
         "website": {
-          "participation": { "volunteer": 40} // Percentage improvement per year.
+          "participation": { "volunteer": 40 },
           "demographic": "renters"
-        }
+        },
         "listserv": {
-          "participation": { "committed": 40} // Percentage improvement per year.
+          "participation": { "committed": 40 },
           "demographic": "homeowners"
         }
       },
       "demographic": {
         "homeowners": 90,
         "renters": 50
-      },
+      }
     },
     {
       "name": "Mural",
       "type": "mural",
       "description": "A painting on a wall.",
-      "participation": [
+      "participation": {
         "committed": 3,
         "volunteer": 15,
         "direct_benefit": 30,
         "occasional_benefit": 0,
         "indirect_benefit": 1000
-      ]
-      "reach": 0.001, // Radius in miles
-      "footprint": 20, // Square feet
-      "growth_profile": [100, 1, 1, 1, 1, 1, 1, 1, 1, 1], // Typical behavior: starts with immediate benefit then tapers off as established. Measured in time investment and rate of change of benefits.
+      },
+      "reach": 0.001,
+      "footprint": 20,
+      "growth_profile": [100, 1, 1, 1, 1, 1, 1, 1, 1, 1],
       "challenges": ["permitting", "graffiti", "weather"],
       "effectiveness": {
         "volunteer_activities": {
-          "participation": { "volunteer": 50} // Percentage improvement per year.
+          "participation": { "volunteer": 50},
           "demographic": "renters"
-        }
+        },
         "website": {
-          "participation": { "volunteer": 40} // Percentage improvement per year.
+          "participation": { "volunteer": 40},
           "demographic": "renters"
-        }
+        },
         "listserv": {
-          "participation": { "committed": 40} // Percentage improvement per year.
+          "participation": { "committed": 40},
           "demographic": "homeowners"
         }
       },

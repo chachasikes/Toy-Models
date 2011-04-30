@@ -1,16 +1,14 @@
 {
   "_id": "mcmansion",
-  "data" : [
+  "data" : {
+    "type": "mcmansion",
+    "scores": 
     {
-      "type": "mcmansion",
-      "scores": 
-      {
-        "social_positive": 30,
-        "social_negative": 60,
-        "density": 1,
-        "waste": 90,
-        "stability": 50
-      }
+      "social_positive": 30,
+      "social_negative": 60,
+      "density": 1,
+      "waste": 90,
+      "stability": 50
     }
-  ]
+  }
 }

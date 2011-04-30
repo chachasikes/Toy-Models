@@ -1,20 +1,18 @@
 {
   "_id": "midsized_market",
-  "data" : [
+  "data" : {
+    "type": "midsized_market",
+    "scores": 
     {
-      "type": "midsized_market",
-      "scores": 
-      {
-        "social_positive": 40,
-        "social_negative": 40,
-        "density": 30,
-        "waste": 50,
-        "food_affordable": 50,
-        "food_enough": 40,
-        "food_appropriate": 50,
-        "food_healthy": 50,
-        "stability": 80
-      }
+      "social_positive": 40,
+      "social_negative": 40,
+      "density": 30,
+      "waste": 50,
+      "food_affordable": 50,
+      "food_enough": 40,
+      "food_appropriate": 50,
+      "food_healthy": 50,
+      "stability": 80
     }
-  ]
+  }
 }
